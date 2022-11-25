@@ -1,7 +1,37 @@
 
 <app-nav></app-nav>
 
-<div class="container">
+<div class="container pt-3">
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Designation</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Email</th>
+        <th scope="col">Company</th>
+        <th scope="col">Phone</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of data">
+        <th scope="row">1</th>
+        
+        <td>{{i.name}}</td>
+        <td>{{i.designation}}</td>
+        <td>{{i.salary}}</td>
+        <td>{{i.email_id}}</td>
+        <td>{{i.company_site}}</td>
+        <td>{{i.phone}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- <div class="container">
     <div class="row">
         <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
@@ -49,7 +79,7 @@
                 <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
 
                     <div class="card m-2 g-3" style="width: 18rem; ">
-                        <img height="250px" src="https://media.newyorker.com/photos/5bd78600daf42d0501bd51e6/1:1/w_1920,h_1920,c_limit/Treisman-Scary-Stories.jpg" class="card-img-top" alt="...">
+                        <img height="250px" src="https://media.newyorker.com/photos/5bd7860daf42d0501bd51e6/1:1/w_1920,h_1920,c_limit/Treisman-Scary-Stories.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Fergusen</h5>
                         </div>
@@ -69,7 +99,7 @@
                 <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
 
                     <div class="card m-2 g-3" style="width: 18rem; ">
-                        <img height="250px" src="https://images.theconversation.com/files/90015/original/image-20150729-30889-ri221u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" class="card-img-top" alt="...">
+                        <img height="250px" src="https://images.theconversation.com/files/9015/original/image-20150729-30889-ri221u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=120&h=120.0&fit=crop" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Fergusen</h5>
                         </div>
@@ -79,7 +109,7 @@
                 <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
 
                     <div class="card m-2 g-3" style="width: 18rem; ">
-                        <img height="250px" src="https://media.newyorker.com/photos/5bd78600daf42d0501bd51e6/1:1/w_1920,h_1920,c_limit/Treisman-Scary-Stories.jpg" class="card-img-top" alt="...">
+                        <img height="250px" src="https://media.newyorker.com/photos/5bd7860daf42d0501bd51e6/1:1/w_1920,h_1920,c_limit/Treisman-Scary-Stories.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Peter</h5>
                         </div>
@@ -110,4 +140,4 @@
 
         </div>
     </div>
-</div>
+</div> -->
